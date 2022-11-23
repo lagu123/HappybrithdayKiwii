@@ -23,7 +23,7 @@
     
     /*Initialize flowers*/
 	$(document).ready(function() {
-	addEventListener('touchstart', function (e) {
+	addEventListener('click', function (e) {
 		drawFlowers()
       playMusic()
     });
