@@ -22,10 +22,12 @@
     var pistilC, petalC, pistilC2, petalC2
     
     /*Initialize flowers*/
-    body.addEventListener("click",function(ev){
-      drawFlowers()
+	$(document).ready(function() {
+	addEventListener('touchstart', function (e) {
+		drawFlowers()
       playMusic()
-    })
+    });
+});
     window.onload = drawFlowers
     window.onresize = drawFlowers
   
