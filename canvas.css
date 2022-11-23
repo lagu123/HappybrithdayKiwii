@@ -1,6 +1,7 @@
 
   canvas {
     height: 100vh;
+	cursor: pointer;
     width: 100vw;
   }
   
